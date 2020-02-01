@@ -149,7 +149,7 @@ def gameLoop():
             # sense.clear(grey)
             
         if x1 == lemonXPos and y1 == lemonYPos:
-            lemonChance = random.randint(0,2)
+            lemonChance = random.randint(0,3)
             if lemonChance == 0:
                 lemonXPos = round(random.randrange(0, windowWidth - snakeBlock) / 10.0) * 10.0
                 lemonYPos = round(random.randrange(0, windowHeight - snakeBlock - 50) / 10.0) * 10.0
